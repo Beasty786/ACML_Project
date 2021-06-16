@@ -1,0 +1,114 @@
+
+
+
+NUMBER 1:
+
+Analyzing the factors affecting the Life Expectancy of a person by doing some data analysis and then, develop a model to predict the life expectancy and will see how it has been defined based on given parameters. We have all the parameters expected to be affecting the life expectancy of a person. Also, we will see countries which sustain both healthy life style and growth.
+
+
+
+NUMBER 2:
+    age - age in years
+    sex - (1 = male; 0 = female)
+    cp - chest pain type
+    trestbps - resting blood pressure (in mm Hg on admission to the hospital)
+    chol - serum cholestoral in mg/dl
+    fbs - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+    restecg - resting electrocardiographic results
+    thalach - maximum heart rate achieved
+    exang - exercise induced angina (1 = yes; 0 = no)
+    oldpeak - ST depression induced by exercise relative to rest
+    slope - the slope of the peak exercise ST segment
+    ca - number of major vessels (0-3) colored by flourosopy
+    thal - 3 = normal; 6 = fixed defect; 7 = reversable defect
+    target - have disease or not (1=yes, 0=no)
+
+
+NUMBER 3:
+
+HEART DISEASE PREDICTION USING LOGISTIC REGRESSION.
+The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset provides the patients’ information. It includes over 4,000 records and 15 attributes.
+
+
+Demographic: sex: male or female;(Nominal)
+
+    age: age of the patient;(Continuous - Although the recorded ages have been truncated to whole numbers, the concept of age is continuous)
+
+    ehavioural
+
+        currentSmoker: whether or not the patient is a current smoker (Nominal)
+
+        cigsPerDay: the number of cigarettes that the person smoked on average in one day.(can be considered continuous as one can have any number of cigarretts, even half a cigarette.)
+
+    Medical( history):
+
+        BPMeds: whether or not the patient was on blood pressure medication (Nominal)
+
+        prevalentStroke: whether or not the patient had previously had a stroke (Nominal)
+
+        prevalentHyp: whether or not the patient was hypertensive (Nominal)
+
+        diabetes: whether or not the patient had diabetes (Nominal)
+
+    Medical(current):
+
+        totChol: total cholesterol level (Continuous)
+
+        sysBP: systolic blood pressure (Continuous)
+
+        diaBP: diastolic blood pressure (Continuous)
+
+        BMI: Body Mass Index (Continuous)
+
+        heartRate: heart rate (Continuous - In medical research, variables such as heart rate though in fact discrete, yet are considered continuous because of large number of possible values.)
+
+        glucose: glucose level (Continuous)
+
+    Predict variable (desired target):
+        10 year risk of coronary heart disease CHD (binary: “1”, means “Yes”, “0” means “No”)
+
+
+NUMBER 4:
+
+A retrospective sample of males in a heart-disease high-risk region of the Western Cape, South Africa.
+There are roughly two controls per case of coronary heart disease. Many of the coronary heart disease
+positive men have undergone blood pressure reduction treatment and other programs to reduce their risk
+factors after their coronary heart disease event. In some cases the measurements were made after these
+treatments. These data are taken from a larger dataset, described in Rousseauw et al, 1983, South African
+Medical Journal.
+
+Cardio South Africa:
+A data frame with 462 observations on the following 10 variables.
+
+sbp
+systolic blood pressure
+
+tobacco
+cumulative tobacco (kg)
+
+ldl
+low density lipoprotein cholesterol
+
+adiposity
+a numeric vector
+
+famhist
+family history of heart disease, a factor with levels "Absent" and "Present"
+
+typea
+type-A behavior
+
+obesity
+a numeric vector
+
+alcohol
+current alcohol consumption
+
+age
+age at onset
+
+chd
+response, coronary heart disease
+
+
+
